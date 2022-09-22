@@ -124,7 +124,7 @@ def page():
         m = st.markdown("""
 <style>
 div.stButton > button:first-child {
-    background-color: rgb(104, 215, 114);
+    background-color: rgb(42, 158, 53);
 }
 </style>""", unsafe_allow_html=True)
         if st.button("More suggestion songs❤️"):
