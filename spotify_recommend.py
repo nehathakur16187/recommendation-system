@@ -147,7 +147,7 @@ div.stButton > button:first-child {
                             characteristic=song_characteristics[:5]))
                             st.caption('The Polar Chart and Table located below define each characteristic in this song')
                             st.write('Characteristic Level:', df)
-                            polar_chart = px.line_polar (df, r='r', theta='characteristic', template = "plotly_dark", line_close=True,color_discrete_sequence=px.colors.sequential.blugrn)
+                            polar_chart = px.line_polar (df, r='r', theta='characteristic', template = "plotly_dark", line_close=True,color_discrete_sequence=px.colors.sequential.green)
                             polar_chart.update_layout(height=260, width=380)
                             st.plotly_chart(polar_chart)
                             
@@ -164,7 +164,7 @@ div.stButton > button:first-child {
                                 characteristic=song_characteristics[:5]))
                             st.caption('The Polar Chart and Table located below define each characteristic in this song')
                             st.write('Characteristic Level:', df)
-                            polar_chart = px.line_polar(df, r='r', theta='characteristic', template = "plotly_dark",line_close=True,color_discrete_sequence=px.colors.sequential.blugrn)
+                            polar_chart = px.line_polar(df, r='r', theta='characteristic', template = "plotly_dark",line_close=True,color_discrete_sequence=px.colors.sequential.green)
                             polar_chart.update_layout(height=260, width=380)
                             st.plotly_chart(polar_chart)
                             
