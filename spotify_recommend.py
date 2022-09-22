@@ -127,7 +127,7 @@ div.stButton > button:first-child {
     background-color: rgb(199, 64, 57);
 }
 </style>""", unsafe_allow_html=True)
-        if st.button("More suggestion songs❤️"):
+        if st.button("More songs 💿"):
             if st.session_state['song_start'] < len(songs):
                 st.session_state['song_start'] += songs_number     
 
