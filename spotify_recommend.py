@@ -145,7 +145,7 @@ div.stButton > button:first-child {
                             df = pd.DataFrame(dict(
                             r=audio[:5],
                             characteristic=song_characteristics[:5]))
-                            st.caption('The Polar Chart Located below define each characteristic in this song')
+                            st.caption('The Polar Chart and Table located below define each characteristic in this song')
                             st.write('Characteristic Level:', df)
                             polar_chart = px.line_polar (df, r='r', theta='characteristic', template = "seaborn", line_close=True,color_discrete_sequence=px.colors.sequential.Blackbody)
                             polar_chart.update_layout(height=260, width=380)
@@ -162,7 +162,7 @@ div.stButton > button:first-child {
                             df = pd.DataFrame(dict(
                                 r=audio[:5],
                                 characteristic=song_characteristics[:5]))
-                            st.caption('The Polar Chart Located below define each characteristic in this song')
+                            st.caption('The Polar Chart and Table located below define each characteristic in this song')
                             st.write('Characteristic Level:', df)
                             polar_chart = px.line_polar(df, r='r', theta='characteristic', template = "seaborn",line_close=True,color_discrete_sequence=px.colors.sequential.Blackbody)
                             polar_chart.update_layout(height=260, width=380)
