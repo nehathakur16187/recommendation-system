@@ -53,7 +53,7 @@ def page():
     with st.container():
         col1,col2= st.columns((9,0.5))
         with col1:
-            st.caption('powered by Phuttachat Treerapee')
+            st.caption('Powered by Phuttachat Treerapee')
             st.sidebar.subheader("🏠 Home")
             st.sidebar.subheader("🔎 Search")
             st.sidebar.subheader("📖 Your Library")
